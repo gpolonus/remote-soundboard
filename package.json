@@ -1,0 +1,19 @@
+{
+  "name": "manysounds",
+  "version": "1.0.0",
+  "description": "Play sounds on a host device from remote devices! Created so that several devices could play sounds from a soundboard on one device connected to a speaker.",
+  "main": "./fe/build/index.html",
+  "scripts": {
+    "build": "cd ./fe && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpolonus/remote-soundboard.git"
+  },
+  "author": "gpolonus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpolonus/remote-soundboard/issues"
+  },
+  "homepage": "https://github.com/gpolonus/remote-soundboard#readme"
+}
