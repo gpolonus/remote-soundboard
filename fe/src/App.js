@@ -5,7 +5,7 @@ import ConnectionButtons from './components/ConnectionButtons'
 import SoundBoard from './components/SoundBoard'
 import { Sound } from './services/Sound'
 
-const startupSocket = webRTCSocket(process.argv[2])
+const startupSocket = webRTCSocket(process.env.REACT_APP_SOCKET_URL)
 
 const sounds = [
   'Stuff',

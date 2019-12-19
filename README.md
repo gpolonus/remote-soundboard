@@ -9,6 +9,7 @@ cd be
 npm i
 cd ../fe
 npm i
+echo "REACT_APP_SOCKET_URL=<the URL to your socket>" >> .env
 ```
 
 ## Start
