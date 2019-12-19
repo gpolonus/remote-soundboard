@@ -10,3 +10,5 @@ build
 .env*
 
 npm-debug.log*
+
+/public
