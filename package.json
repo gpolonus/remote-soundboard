@@ -4,7 +4,7 @@
   "description": "Play sounds on a host device from remote devices! Created so that several devices could play sounds from a soundboard on one device connected to a speaker.",
   "main": "./fe/build/index.html",
   "scripts": {
-    "build": "cd ./fe && npm run build"
+    "build": "cd ./fe && npm i && npm run build"
   },
   "repository": {
     "type": "git",
