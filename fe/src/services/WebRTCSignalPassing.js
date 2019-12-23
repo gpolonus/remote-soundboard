@@ -24,12 +24,6 @@ export default function(socketURL) {
   }
 }
 
-/**
- * TODO: Allow users to instigate a connection
- *
- * For now the socket server connects the users instead of the other way around
- */
-
 function setupPeer(p, connect, receive) {
   function send(d) {
     console.log(`sending from ${p._id}: `, d)
