@@ -1,0 +1,15 @@
+{
+  "name": "remote-soundboard-be",
+  "version": "1.0.0",
+  "description": "The backend of the remote-soundboard application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "gpolonus",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "socket.io": "^2.3.0"
+  }
+}

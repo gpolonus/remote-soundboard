@@ -14,7 +14,7 @@ const sounds = [
   'Other Things'
 ]
 
-const audio = new Sound('/sounds/blop.wav');
+const audio = new Sound('/sounds/blop.mp3');
 
 function playSound(sound) {
   console.log(`play sound: ${sound}`)
