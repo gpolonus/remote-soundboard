@@ -5,9 +5,9 @@ export default ({ sounds, play }) => (
   <div className="SoundBoard">
     {
       sounds.map(sound => (
-        <h2 key={sound} onClick={() => play(sound)}>
+        <button className="sound" key={sound} onClick={() => play(sound)}>
           {sound}
-        </h2>
+        </button>
       ))
     }
   </div>

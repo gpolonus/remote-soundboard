@@ -2,3 +2,14 @@
 .App {
   text-align: center;
 }
+
+.ConnectionButtons div {
+  padding: 10px;
+}
+
+.SoundBoard button.sound {
+  border: 3px solid black;
+  background: white;
+  font-size: 1.5em;
+  display: block;
+}
