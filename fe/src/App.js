@@ -4,6 +4,7 @@ import webRTCSocket from './services/WebRTCSignalPassing'
 import ConnectionButtons from './components/ConnectionButtons'
 import SoundBoard from './components/SoundBoard'
 import { Sound } from './services/Sound'
+import './App.css'
 
 const startupSocket = webRTCSocket(process.env.REACT_APP_SOCKET_URL)
 
@@ -80,7 +81,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Many Sounds</h1>
+      <h1>Cringemas Soundboard!</h1>
       <div>
         {
             peerConnected ?
