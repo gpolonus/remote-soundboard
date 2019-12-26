@@ -9,17 +9,21 @@ import './App.css'
 const startupSocket = webRTCSocket(process.env.REACT_APP_SOCKET_URL)
 
 const sounds = [
-  'Stuff',
-  'Things',
-  'Other Stuff',
-  'Other Things'
+  {
+    display: 'Blop',
+    id: 'blop',
+    sound: new Sound('/sounds/blop.mp3')
+  },
+  {
+    display: 'NOOOO',
+    id: 'noooo',
+    sound: new Sound('/sounds/noooo.mp3')
+  }
 ]
-
-const audio = new Sound('/sounds/blop.mp3');
 
 function playSound(sound) {
   console.log(`play sound: ${sound}`)
-  audio.play()
+  sounds.find(({ id }) => id === sound).sound.play()
 }
 
 function App() {
